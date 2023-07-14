@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/angerpic"
+    tools:context=".AngermngActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="-16dp"
+        tools:layout_editor_absoluteY="-16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            tools:ignore="ExtraText">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="Control anger before it controls you"
+                android:textColor="@color/red"
+                android:textSize="25sp"
+                tools:layout_editor_absoluteX="3dp"
+                tools:layout_editor_absoluteY="16dp" />
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="227dp"
+                android:layout_height="102dp"
+                app:srcCompat="@drawable/angerdp"
+                tools:layout_editor_absoluteX="3dp"
+                tools:layout_editor_absoluteY="63dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="51dp"
+                android:text="  Anger is a normal feeling. We all feel angry sometimes. Different people feel and show anger in different ways"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                tools:layout_editor_absoluteX="116dp"
+                tools:layout_editor_absoluteY="71dp" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="WHEN ANGER IS A PROBLEM"
+                android:textColor="@color/red"
+                android:textSize="15sp"
+                tools:layout_editor_absoluteX="100dp"
+                tools:layout_editor_absoluteY="187dp" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="391dp"
+                android:layout_height="210dp"
+                android:text="
+    You feel like you can't control your anger, or that it controls your life
+    You express your anger through unhelpful or destructive behaviour, such as violence or self-harm
+    You're worried your behaviour may become abusive
+    Your anger is having a negative effect on your relationships, work, studies or hobbies
+    Your anger is often hurting, frightening or upsetting the people around you
+    You feel unable to get on with your daily life because of your anger
+    You find yourself thinking about your anger all the time
+    You're often doing or saying things that you regret afterwards
+    Your anger is having a negative impact on your overall mental and physical health
+    Anger is becoming your go-to emotion, blocking out your ability to feel other emotions
+    Your anger regularly makes you feel worse about yourself or your life
+    You can't remember things you do or say when you're angry
+    You're using alcohol or drugs to cope with your anger
+"
+                android:textColor="@color/white"
+                android:textSize="12sp"
+                tools:layout_editor_absoluteX="11dp"
+                tools:layout_editor_absoluteY="209dp" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="268dp"
+                android:layout_height="wrap_content"
+                android:text="How can I manage my anger?"
+                android:textColor="@color/red"
+                android:textSize="20dp"
+                tools:layout_editor_absoluteX="100dp"
+                tools:layout_editor_absoluteY="430dp" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="409dp"
+                android:layout_height="wrap_content"
+                tools:layout_editor_absoluteX="1dp"
+                tools:layout_editor_absoluteY="521dp">
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <TextView
+                android:id="@+id/textView67"
+                android:layout_width="268dp"
+                android:layout_height="wrap_content"
+                android:text="1.Managing anger in the moment"
+                android:textColor="@color/red"
+                android:textSize="15dp"
+                tools:ignore="TextSizeCheck"
+                tools:layout_editor_absoluteX="100dp"
+                tools:layout_editor_absoluteY="430dp" />
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine"
+                android:layout_width="match_parent"
+                android:layout_height="281dp"
+                android:ems="10"
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                android:text="@string/think_to_yourself_i_m_feeling_really_angry_right_now_without_trying_to_justify_it_or_understand_why_accepting_the_feeling_without_trying_to_explain_it_can_sometimes_be_helpful_take_yourself_out_of_the_situation_you_could_go_for_a_walk_go_to_a_different_room_or_log_off_if_the_situation_is_online_use_a_code_word_for_when_you_feel_angry_you_could_say_this_to_others_or_to_yourself_to_signal_that_you_need_some_time_to_yourself_before_talking_any_further_this_may_help_you_avoid_having_to_explain_yourself_in_the_moment_focus_on_what_s_around_you_try_listing_5_things_you_can_see_4_things_you_can_touch_3_things_you_can_hear_2_things_you_can_smell_and_1_thing_you_can_taste_focus_on_your_breath_breathe_slowly_and_deeply_try_breathing_in_through_your_nose_and_out_through_your_mouth_some_people_find_it_helpful_to_count_while_doing_this_use_a_grounding_object_keep_a_small_object_with_you_to_hold_and_focus_on_when_you_feel_angry_for_example_you_could_use_a_marble_a_fidget_toy_or_a_piece_of_fabric_keep_notes_on_your_phone_with_reminders_to_yourself_about_what_to_do_when_you_feel_angry"
+                android:textColor="@color/white"
+                android:textSize="12sp"
+                tools:layout_editor_absoluteX="26dp"
+                tools:layout_editor_absoluteY="461dp" />
+TextView
+
+            <TextView
+                android:id="@+id/textView56"
+                android:layout_width="352dp"
+                android:layout_height="wrap_content"
+                android:text="2.Try some ways to distract or calm yourself"
+                android:textColor="@color/red"
+                android:textSize="15dp"
+                tools:layout_editor_absoluteX="100dp"
+                tools:layout_editor_absoluteY="430dp" />
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine2"
+                android:layout_width="399dp"
+                android:layout_height="106dp"
+                android:ems="8"
+                android:gravity="start|top"
+                android:text="@string/relax_your_body_if_you_can_feel_your_body_getting_tense_try_focusing_on_each_part_of_your_body_in_turn_to_tense_and_then_relax_your_muscles"
+                android:textColor="@color/white"
+                android:textSize="15sp"
+                tools:layout_editor_absoluteX="12dp"
+                tools:layout_editor_absoluteY="646dp" />
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine3"
+                android:layout_width="422dp"
+                android:layout_height="70dp"
+                android:ems="8"
+                android:gravity="start|top"
+                android:text="@string/try_mindfulness_techniques_mindfulness_can_help_you_to_be_aware_of_when_you_re_getting_angry_and_it_can_help_calm_your_body_and_mind"
+                android:textColor="@color/white"
+                android:textSize="15sp"
+                tools:layout_editor_absoluteX="12dp"
+                tools:layout_editor_absoluteY="646dp" />
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine56"
+                android:layout_width="422dp"
+                android:layout_height="130dp"
+                android:ems="8"
+                android:gravity="start|top"
+                android:text="@string/use_up_your_energy_safely_in_other_ways_this_can_help_relieve_some_of_your_angry_feelings_in_a_way_that_doesn_t_hurt_you_or_others_for_example_you_could_try_tearing_up_paper_hitting_a_pillow_or_smashing_ice_cubes"
+                android:textColor="@color/white"
+                android:textSize="15sp"
+                tools:layout_editor_absoluteX="12dp"
+                tools:layout_editor_absoluteY="646dp" />
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine78"
+                android:layout_width="422dp"
+                android:layout_height="130dp"
+                android:ems="8"
+                android:gravity="start|top"
+                android:text="Express your anger through writing or art. For example, you could write all of your feelings down in a journal or record them to yourself on your phone. This may help you get those feelings out of your head. Some people find it helpful to do this and then rip up or delete the notes afterwards."
+                android:textColor="@color/white"
+                android:textSize="15sp"
+                tools:layout_editor_absoluteX="12dp"
+                tools:layout_editor_absoluteY="646dp" />
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine76"
+                android:layout_width="422dp"
+                android:layout_height="130dp"
+                android:ems="8"
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                android:text="Express your anger through writing or art. For example, you could write all of your feelings down in a journal or record them to yourself on your phone. This may help you get those feelings out of your head. Some people find it helpful to do this and then rip up or delete the notes afterwards."
+                android:textColor="@color/white"
+                android:textSize="15sp"
+                tools:layout_editor_absoluteX="12dp"
+                tools:layout_editor_absoluteY="646dp" />
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine756"
+                android:layout_width="422dp"
+                android:layout_height="130dp"
+                android:ems="8"
+                android:gravity="start|top"
+                android:text="Spend time in green space or bring nature into your everyday life. This can reduce stress or anger and help you feel more relaxed. See our pages on nature and mental health for more information."
+                android:textColor="@color/white"
+                android:textSize="15sp"
+                tools:layout_editor_absoluteX="12dp"
+                tools:layout_editor_absoluteY="646dp" />
+
+
+            <TextView
+                android:id="@+id/txtrelaxation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Click here for relaxation techniques"
+                android:textColor="@color/green"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/txtorganization"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Get help by talking to someone for free"
+                android:textColor="@color/green"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/txtmindfulness"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Click here for mindful techniques"
+                android:textColor="@color/green"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/txtnature"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nature and mental health"
+                android:textColor="@color/green"
+                android:textStyle="italic" />
+
+
+            <TextView
+                android:id="@+id/tXRTSKILLS"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SKILLS TO TRY AT HOME"
+                android:textColor="@color/red"
+                android:textSize="15sp"
+                tools:layout_editor_absoluteX="100dp"
+                tools:layout_editor_absoluteY="187dp" />
+
+            <TextView
+                android:id="@+id/editTextTextMultiLine24"
+                android:layout_width="match_parent"
+                android:layout_height="106dp"
+                android:ems="10"
+                android:gravity="start|top"
+                android:text="
+
+   1.Use words to describe how something made you feel. This helps other people understand how you feel. It is not very helpful to shout, “Why can’t you show up on time!” If you say, “I feel angry when you are late,” it tells the other person why you are angry. Putting your feelings into words also shows you what the problem is. Then you can use your problem-solving skills to make changes.
+
+    2.Learn ways to relax like deep breathing or yoga. Take time to do things that help you feel relaxed. Good things to try are listening to music, walking or writing about your thoughts.
+
+    3.When you feel like you are getting very angry, try doing something different. Try counting to ten or imagining a very peaceful place.
+
+    4.Try to get some exercise every day. Exercise is a good outlet for anger.
+
+    5.Try to get enough sleep. It is easy to feel upset when you are tired.
+
+   6.Put yourself in the other person’s place. This can help you see that someone was not trying to make you mad on purpose.
+"
+                android:textColor="@color/white"
+                tools:ignore="HardcodedText"
+                tools:layout_editor_absoluteX="12dp"
+                tools:layout_editor_absoluteY="646dp" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

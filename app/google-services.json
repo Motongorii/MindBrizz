@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1078451283721",
+    "project_id": "mindbrizz",
+    "storage_bucket": "mindbrizz.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1078451283721:android:3374f8482198a02663d5d8",
+        "android_client_info": {
+          "package_name": "com.example.mindbrizz"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1078451283721-qgco1bu8raadg3k22b94q0mmg132iqub.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBb6iymwmD1LM5jVn_baPTDidPeWf7CG5o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1078451283721-qgco1bu8raadg3k22b94q0mmg132iqub.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

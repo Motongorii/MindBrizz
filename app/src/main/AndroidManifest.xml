@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/applogo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/applogo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MindBrizz"
+        tools:targetApi="31">
+        <activity
+            android:name=".SetupProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".OTPActivity"
+            android:exported="false" />
+        <activity
+            android:name=".VerificationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MyJournalActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ChatScreenActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RelaxationTechniques"
+            android:exported="false" />
+        <activity
+            android:name=".OCDmngActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PornAddictionmngActivity"
+            android:exported="false" />
+        <activity
+            android:name=".StressmngActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AnxietymngActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AngermngActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SuicidemngActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ForgotPasswordActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SignUpActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SignInActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+    </application>
+
+</manifest>
